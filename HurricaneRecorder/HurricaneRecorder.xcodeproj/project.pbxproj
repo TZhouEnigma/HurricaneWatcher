@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0171DBDA1FDD41AC00D4DA0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171DBD91FDD41AC00D4DA0D /* AppDelegate.swift */; };
+		0171DBDC1FDD41AC00D4DA0D /* mainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171DBDB1FDD41AC00D4DA0D /* mainVC.swift */; };
+		0171DBDF1FDD41AC00D4DA0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0171DBDD1FDD41AC00D4DA0D /* Main.storyboard */; };
+		0171DBE11FDD41AC00D4DA0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0171DBE01FDD41AC00D4DA0D /* Assets.xcassets */; };
+		0171DBE41FDD41AC00D4DA0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0171DBE21FDD41AC00D4DA0D /* LaunchScreen.storyboard */; };
+		01FB574D1FE0A1D1007E9F22 /* ReportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB574C1FE0A1D0007E9F22 /* ReportVC.swift */; };
+		4BBBF3A65EEAE877B3FF0EA3 /* Pods_HurricaneRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBDEE497EFBBF97A65D8E33D /* Pods_HurricaneRecorder.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0171DBD61FDD41AC00D4DA0D /* HurricaneRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HurricaneRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0171DBD91FDD41AC00D4DA0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0171DBDB1FDD41AC00D4DA0D /* mainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainVC.swift; sourceTree = "<group>"; };
+		0171DBDE1FDD41AC00D4DA0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0171DBE01FDD41AC00D4DA0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0171DBE31FDD41AC00D4DA0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0171DBE51FDD41AC00D4DA0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01FB574C1FE0A1D0007E9F22 /* ReportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportVC.swift; sourceTree = "<group>"; };
+		01FB577D1FE0B611007E9F22 /* MaterialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		01FB577E1FE0B643007E9F22 /* LandfallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandfallCell.swift; sourceTree = "<group>"; };
+		01FB577F1FE103A5007E9F22 /* Apple Hurricane iPhone 5 Wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Apple Hurricane iPhone 5 Wallpaper.jpg"; sourceTree = "<group>"; };
+		8C28055BCCBAD72EFC3E5CD6 /* Pods-HurricaneRecorder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HurricaneRecorder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HurricaneRecorder/Pods-HurricaneRecorder.debug.xcconfig"; sourceTree = "<group>"; };
+		EFD20FB3A6FA70D994F9231D /* Pods-HurricaneRecorder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HurricaneRecorder.release.xcconfig"; path = "Pods/Target Support Files/Pods-HurricaneRecorder/Pods-HurricaneRecorder.release.xcconfig"; sourceTree = "<group>"; };
+		FBDEE497EFBBF97A65D8E33D /* Pods_HurricaneRecorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HurricaneRecorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0171DBD31FDD41AC00D4DA0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BBBF3A65EEAE877B3FF0EA3 /* Pods_HurricaneRecorder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0171DBCD1FDD41AC00D4DA0D = {
+			isa = PBXGroup;
+			children = (
+				0171DBD81FDD41AC00D4DA0D /* HurricaneRecorder */,
+				0171DBD71FDD41AC00D4DA0D /* Products */,
+				60BD5979B8A2D3277DAD4F40 /* Pods */,
+				7786285D369325A28CA510A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0171DBD71FDD41AC00D4DA0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0171DBD61FDD41AC00D4DA0D /* HurricaneRecorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0171DBD81FDD41AC00D4DA0D /* HurricaneRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				01FB57811FE12295007E9F22 /* Controller */,
+				01FB57801FE12282007E9F22 /* Model */,
+				01FB577C1FE0B5F5007E9F22 /* View */,
+				0171DBD91FDD41AC00D4DA0D /* AppDelegate.swift */,
+				0171DBDD1FDD41AC00D4DA0D /* Main.storyboard */,
+				0171DBE01FDD41AC00D4DA0D /* Assets.xcassets */,
+				01FB577F1FE103A5007E9F22 /* Apple Hurricane iPhone 5 Wallpaper.jpg */,
+				0171DBE21FDD41AC00D4DA0D /* LaunchScreen.storyboard */,
+				0171DBE51FDD41AC00D4DA0D /* Info.plist */,
+			);
+			path = HurricaneRecorder;
+			sourceTree = "<group>";
+		};
+		01FB577C1FE0B5F5007E9F22 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				01FB577D1FE0B611007E9F22 /* MaterialView.swift */,
+				01FB577E1FE0B643007E9F22 /* LandfallCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		01FB57801FE12282007E9F22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		01FB57811FE12295007E9F22 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				01FB574C1FE0A1D0007E9F22 /* ReportVC.swift */,
+				0171DBDB1FDD41AC00D4DA0D /* mainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		60BD5979B8A2D3277DAD4F40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C28055BCCBAD72EFC3E5CD6 /* Pods-HurricaneRecorder.debug.xcconfig */,
+				EFD20FB3A6FA70D994F9231D /* Pods-HurricaneRecorder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7786285D369325A28CA510A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBDEE497EFBBF97A65D8E33D /* Pods_HurricaneRecorder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0171DBD51FDD41AC00D4DA0D /* HurricaneRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0171DBE81FDD41AC00D4DA0D /* Build configuration list for PBXNativeTarget "HurricaneRecorder" */;
+			buildPhases = (
+				A003CCA2E5846EE0A7556328 /* [CP] Check Pods Manifest.lock */,
+				0171DBD21FDD41AC00D4DA0D /* Sources */,
+				0171DBD31FDD41AC00D4DA0D /* Frameworks */,
+				0171DBD41FDD41AC00D4DA0D /* Resources */,
+				F27E690A48B17443259DA2B3 /* [CP] Embed Pods Frameworks */,
+				837AE9A728245EE96E9E2208 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HurricaneRecorder;
+			productName = HurricaneRecorder;
+			productReference = 0171DBD61FDD41AC00D4DA0D /* HurricaneRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0171DBCE1FDD41AC00D4DA0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "chuxiang zhou";
+				TargetAttributes = {
+					0171DBD51FDD41AC00D4DA0D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0171DBD11FDD41AC00D4DA0D /* Build configuration list for PBXProject "HurricaneRecorder" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0171DBCD1FDD41AC00D4DA0D;
+			productRefGroup = 0171DBD71FDD41AC00D4DA0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0171DBD51FDD41AC00D4DA0D /* HurricaneRecorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0171DBD41FDD41AC00D4DA0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0171DBE41FDD41AC00D4DA0D /* LaunchScreen.storyboard in Resources */,
+				0171DBE11FDD41AC00D4DA0D /* Assets.xcassets in Resources */,
+				0171DBDF1FDD41AC00D4DA0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		837AE9A728245EE96E9E2208 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HurricaneRecorder/Pods-HurricaneRecorder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A003CCA2E5846EE0A7556328 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HurricaneRecorder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F27E690A48B17443259DA2B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HurricaneRecorder/Pods-HurricaneRecorder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HurricaneRecorder/Pods-HurricaneRecorder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0171DBD21FDD41AC00D4DA0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0171DBDC1FDD41AC00D4DA0D /* mainVC.swift in Sources */,
+				01FB574D1FE0A1D1007E9F22 /* ReportVC.swift in Sources */,
+				0171DBDA1FDD41AC00D4DA0D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0171DBDD1FDD41AC00D4DA0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0171DBDE1FDD41AC00D4DA0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0171DBE21FDD41AC00D4DA0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0171DBE31FDD41AC00D4DA0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0171DBE61FDD41AC00D4DA0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0171DBE71FDD41AC00D4DA0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0171DBE91FDD41AC00D4DA0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C28055BCCBAD72EFC3E5CD6 /* Pods-HurricaneRecorder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BQZM33TAZK;
+				INFOPLIST_FILE = HurricaneRecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.opencvmoments.HurricaneRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0171DBEA1FDD41AC00D4DA0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFD20FB3A6FA70D994F9231D /* Pods-HurricaneRecorder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BQZM33TAZK;
+				INFOPLIST_FILE = HurricaneRecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.opencvmoments.HurricaneRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0171DBD11FDD41AC00D4DA0D /* Build configuration list for PBXProject "HurricaneRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0171DBE61FDD41AC00D4DA0D /* Debug */,
+				0171DBE71FDD41AC00D4DA0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0171DBE81FDD41AC00D4DA0D /* Build configuration list for PBXNativeTarget "HurricaneRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0171DBE91FDD41AC00D4DA0D /* Debug */,
+				0171DBEA1FDD41AC00D4DA0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0171DBCE1FDD41AC00D4DA0D /* Project object */;
+}
